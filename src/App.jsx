@@ -9,6 +9,7 @@ import LocationFinder from './components/LocationFinder';
 import ShowTime from './components/TimeComponent';
 import SearchBar from './components/SearchBar';
 import unsplash from './api/unsplash';
+import ImageList from "./ImageList";
 
 
 function App() {
@@ -39,7 +40,7 @@ function App() {
     }
     <div className="ui container" style={{margin: "30px"}}>
       <SearchBar formSubmit={formSubmitHandler}/>
-      Found: {data.length +" "+ "images"}
+      <ImageList images = {data} /> 
     </div>
     
     </div>
