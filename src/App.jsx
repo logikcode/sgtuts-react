@@ -9,7 +9,7 @@ import LocationFinder from './components/LocationFinder';
 import ShowTime from './components/TimeComponent';
 import SearchBar from './components/SearchBar';
 import unsplash from './api/unsplash';
-import ImageList from "./ImageList";
+import ImageList from './components/ImageList';
 
 
 function App() {
